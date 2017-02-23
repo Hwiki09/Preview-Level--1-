@@ -56,7 +56,6 @@ body {
 
 .header .navbar h2 {
   float: left;
-  text-transform: uppercase;
 }
 .header .navbar h2 span {
   color: #35CA79;
@@ -89,20 +88,25 @@ body {
 
 .features {
   overflow: hidden;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.features .feat h2 {
-  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .features .feat {
   float: left;
   width: 33.333333%;
   height: 150px;
-  background-color: #DDD;
 }
+
+.features .feat h2 {
+  color: #444;
+}
+
+.features .feat p {
+  line-height: 1.7;
+  color: #888;
+}
+
 /* End  feautures */
 
 /* Start Hobbies */
