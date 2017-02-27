@@ -214,12 +214,8 @@ body {
 }
 
 .my-skills .skills button {
-  background: none;
-  border: 2px solid #2dcc70;
   margin-top: 20px;
   margin-left: 40px;
-  padding: 10px 30px;
-  color: #2dcc70
 }
 
 .my-skills .progress .technique {
@@ -252,10 +248,27 @@ body {
 
 .resume {
   background-color: #f2f2f2;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 60px;
   text-align: center;
 }
+
+.resume h2 {
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.resume p {
+  line-height: 1.7;
+  color: #666;
+  padding: 0 40px;
+}
+
+.resume button {
+  margin-top: 15px;
+}
+
 /* End Resume */
 
 /* Start My Education */
@@ -340,3 +353,19 @@ body {
 
 
 /* End Footer */
+
+
+
+
+
+/* My Framework */
+
+.my-button {
+  background: none;
+  border: 2px solid #2dcc70;
+  padding: 10px 30px;
+  color: #2dcc70;
+  font-weight: bold;
+}
+
+/* My Framework */
