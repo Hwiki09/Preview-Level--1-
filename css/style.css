@@ -347,10 +347,44 @@ body {
 
 .testimonials {
   background-color: #f2f2f2;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
+
+.testimonials q {
+  line-height: 1.7;
+  color: #888;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.testimonials h3 {
+  color: #666;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.testimonials ul {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.testimonials ul li {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #2dcc70;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.testimonials ul li.active, .testimonials ul li:hover {
+  background-color: #2dcc70 ;
+}
+
+
 /* End Testimonials */
 
 
