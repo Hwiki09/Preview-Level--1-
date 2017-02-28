@@ -431,20 +431,69 @@ body {
 .contact {
   background-color: #252f31;
   overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.contact h2 {
-  color: #FFF;
-}
-
-.contact p {
-  color: #6A6E71;
-}
-
-.contact .info, .contact .form {
+.contact .info{
   width: 50%;
   float: left;
+  margin-right: 5%;
 }
+
+.contact .info h2 {
+  color: #FFF;
+  margin-left: 40px;
+}
+
+.contact .info p {
+  color: #6A6E71;
+  margin-left: 40px;
+  line-height: 1.6;
+}
+
+.contact .info p strong {
+  color: #D1D6DA;
+}
+
+.contact .form {
+  width: 45%;
+  float: left;
+}
+
+.contact .form label {
+  display: block;
+  color: #D1D6DA;
+  margin: 10px 0;
+}
+
+.contact .form input[type="text"] {
+  background-color: #4B5557;
+  color: #FFF;
+  width: 80%;
+  border: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact .form textarea {
+  background-color: #4B5557;
+  color: #FFF;
+  width: 80%;
+  border: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 270px;
+}
+
+.contact .form button {
+  background-color: #191E22;
+  color: #D1D6DA;
+  padding: 15px 25px;
+  border: 0px;
+  text-align: center;
+}
+
 /* End Contact Me */
 
 /* Start Footer */
